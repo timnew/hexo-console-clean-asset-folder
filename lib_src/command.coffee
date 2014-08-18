@@ -54,6 +54,9 @@ cleanFolder = (folder, callback) ->
     callback(null)
 
 module.exports = command = (args, callback) ->
-  folders = ['source/_drafts', 'source/_posts'].concat(args._)
+  folders = [].concat(args._)
+
+  folders.unshift 'source/_drafts' unless args.draft == false
+  folders.unshift 'source/_posts' unless args.post == false
 
   async.each folders, cleanFolder, callback

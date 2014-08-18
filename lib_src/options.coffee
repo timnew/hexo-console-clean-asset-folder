@@ -3,6 +3,6 @@ module.exports = options =
   description: 'Delete empty asset folders'
   usage: '[additional folder] [addtional folder2] ...'
   options: [
-    {name: '-d, --no-draft', desc: 'Do not clean draft folder'},
-    {name: '-p, --no-post', desc: 'Do not clean post folder'}
+    {name: '--no-draft', desc: 'Do not clean draft folder'},
+    {name: '--no-post', desc: 'Do not clean post folder'}
   ]

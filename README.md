@@ -32,13 +32,13 @@ Then all the empty asset folders will be removed automatically
 If you have empty folders in folder other than `source/_drafts` or  `source/_posts`. You can specify the path in this way:
 
 ```
-  $ hexo caf -d -p themes/my_awesome_theme
+  $ hexo caf --no-draft --no-post themes/my_awesome_theme
 ```
 
 All the empty folder under `themes/my_awesome_theme` will be cleaned.
 
-* Switch `-d` prevent plug-in to scan `/source/_drafts` folder
-* Switch `-p` prevent plug-in to scan `/source/_posts` folder
+* Switch `--no-draft` prevent plug-in to scan `/source/_drafts` folder
+* Switch `--no-post`  prevent plug-in to scan `/source/_posts` folder
 
 ## License
 MIT
