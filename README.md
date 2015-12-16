@@ -1,3 +1,7 @@
+**<h2>OBSOLETE WARNING</h2>**  
+
+**This Plug-in is designed to be the companion of [hexo-tag-asset-res](https://github.com/timnew/hexo-tag-asset-res) for Hexo 2. And it is considered to be obsoleted after Hexo 3 released, which already has the `asset-folder` feature built-in.**
+
 hexo-console-clean-asset-folder [![NPM version][npm-image]][npm-url] [![Dependency Status][depstat-image]][depstat-url]
 ===============================
 
